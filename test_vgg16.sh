@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=2 time python ./tools/test_net.py --imdb voc_2007_test --model output/vgg16_finetune/voc0712/default/vgg16_faster_rcnn_iter_140000.pth --cfg experiments/cfgs/vgg16.yml --net vgg16 --set ANCHOR_SCALES [8,16,32] ANCHOR_RATIOS [0.5,1,2] 
