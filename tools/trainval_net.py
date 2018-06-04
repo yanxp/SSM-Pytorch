@@ -127,6 +127,7 @@ if __name__ == '__main__':
   # unlabeled num_images 
   remainnum = imdb[imdb.item_name(1)].num_images
 
+  unflippedImdb = imdb[imdb.item_name(1)]
   print('total num:{}, initial num:{}'.format(total_num,initialnum)) 
 
   bitmapImdb = BitMap(total_num)
@@ -206,7 +207,7 @@ if __name__ == '__main__':
       net.cuda()
       print('Process detect the unlabeled images ...')
       # return detect results of the unlabeledidx samples with the latest model
-      scoreMatrix,boxRecord,yVecs, al_idx = detect_im(net,unlabeledidx,imdb,clslambda)
+      scoreMatrix,boxRecord,yVecs, al_idx = detect_im(net,unlabeledidx,unflippedImdb,clslambda)
       unlabeledidx = [ x for x in unlabeledidx if x not in al_idx ]
       # record some detect results for updatable
       al_candidate_idx = []  # record al samples index in imdb
