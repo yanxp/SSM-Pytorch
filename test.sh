@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=0 time python ./tools/test_net.py --imdb voc_2007_test --model output/res101_ss/voc0712/default/res101_faster_rcnn_iter_110000.pth --cfg experiments/cfgs/res101.yml --net res101 --set ANCHOR_SCALES [8,16,32] ANCHOR_RATIOS [0.5,1,2] 
+CUDA_VISIBLE_DEVICES=0 time python ./tools/test_net.py --imdb voc_2007_test --model output/res101/voc0712/default/res101_faster_rcnn_iter_110000.pth --cfg experiments/cfgs/res101.yml --net res101 --set ANCHOR_SCALES [8,16,32] ANCHOR_RATIOS [0.5,1,2] 
