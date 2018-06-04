@@ -20,7 +20,7 @@ For Academic Research Use Only!
 
 If you find SSM useful in your research, please consider citing:
 
-    @article{wang18ssm,
+    @inproceedings{wang18ssm,
         Author = {Keze Wang, Xiaopeng Yan, Dongyu Zhang, Lei Zhang, Liang Lin},
         Title = {{SSM}: Towards Human-Machine Cooperation: Self-supervised Sample Mining for Object Detection},
         Journal = {Proc. of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
