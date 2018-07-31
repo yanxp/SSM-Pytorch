@@ -16,6 +16,13 @@ Sun Yat-Sen University, Presented at [CVPR2018](https://arxiv.org/pdf/1803.09867
 
 For Academic Research Use Only!
 
+### Requirements
+
+Requirements
+Python 3.6
+OpenCV
+PyTorch 0.3
+
 ### Citing SSM
 
 If you find SSM useful in your research, please consider citing:
