@@ -18,9 +18,10 @@ For Academic Research Use Only!
 
 ### Requirements
 
-Requirements
 Python 3.6
+
 OpenCV
+
 PyTorch 0.3
 
 ### Citing SSM
