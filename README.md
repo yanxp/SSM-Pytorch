@@ -24,6 +24,8 @@ OpenCV
 
 PyTorch 0.3
 
+Note: pytorch 0.4 or python 2.7 is not supported!!!
+
 ### Citing SSM
 
 If you find SSM useful in your research, please consider citing:
