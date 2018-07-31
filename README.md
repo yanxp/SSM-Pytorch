@@ -16,7 +16,7 @@ Sun Yat-Sen University, Presented at [CVPR2018](https://arxiv.org/pdf/1803.09867
 
 For Academic Research Use Only!
 
-### Requirements
+### Strict Requirements
 
 Python 3.6
 
@@ -24,7 +24,7 @@ OpenCV
 
 PyTorch 0.3
 
-Note: pytorch 0.4 or python 2.7 is not supported!!!
+Note: PyTorch 0.4 or Python 2.7 is not supported !
 
 ### Citing SSM
 
