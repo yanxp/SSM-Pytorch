@@ -247,14 +247,17 @@ if __name__ == '__main__':
                          im_cls.append(np.where(y==1)[0])
                          ss_accum_score += float(avg_score)
                      else:
-                         continue
+                         al_candidate_idx.append(unlabeledidx[i])
+                         im_boxes = []
+                         im_cls = []
+                         break
                   else:
                      discard_num += 1
                      continue
               else: # AL process
                   # add image sample to al candidate
                   al_candidate_idx.append(unlabeledidx[i])
-                  im_boxes=[]
+                  im_boxes = []
                   im_cls = []
                   break
           # replace the fake ground truth for the ss_candidate                                                         
