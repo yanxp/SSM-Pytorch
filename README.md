@@ -12,6 +12,7 @@ Sun Yat-Sen University, Presented at [CVPR2018](https://arxiv.org/pdf/1803.09867
 
 <p align=center><img width="80%" src="tools/ssm.png"/></p>
 
+The code is provided by [Xiaopeng Yan](https://yanxp.github.io/) ([Xiaoxi Wang](http://www.sysu-hcp.net/people/) also provides contributions).
 ### License
 
 For Academic Research Use Only!
