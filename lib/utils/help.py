@@ -129,9 +129,9 @@ def judge_uv(loss, gamma, clslambda):
     dim = loss.shape[0]
     v_val = np.zeros((dim,))
 
-    if(lsum > threshold):
+    if(lsum > gamma):
         return False, v_val
-    elif lsum < threshold:
+    elif lsum < gamma:
         for i,l in enumerate(loss):
             if l > clslambda[i]:
                 v_val[i]=0
