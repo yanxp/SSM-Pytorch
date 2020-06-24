@@ -262,7 +262,7 @@ if __name__ == '__main__':
                   break
           # replace the fake ground truth for the ss_candidate                                                         
           if len(im_boxes) != 0:
-              ss_avg_score.append(ss_accum_score/len(img_boxes))
+              ss_avg_score.append(ss_accum_score/len(im_boxes))
               ss_candidate_idx.append(unlabeledidx[i])
               overlaps = np.zeros((len(im_boxes), imdb.num_classes), dtype=np.float32)
               for i in range(len(im_boxes)):
